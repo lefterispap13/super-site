@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>JavaScript form validation - checking all letters</title>
+        <link rel='stylesheet' href='../Assignment1LePa/css/assign1.css' type='text/css' />
+    </head>
+    <body >
+        <div class="mail">
+            <h2>Student Form </h2><br><hr/>
+
+
+            <form name="form1" action="#">      
+                <ul>
+                    <p><b>Enter Student's First Name : </b></p>
+                    <li><input type='text' name='text1' minLength="2" maxLength="14" placeholder="first name" required/></li>
+                    <li class="rq">*Enter alphabets only(2-14 characters).</li>
+                    <li>&nbsp;</li>
+                    
+                    <p><b>Enter Student's Last Name : </b></p>
+                    <li><input type='text' name='text2' minLength="2" maxLength="16" placeholder="last name" required/> </li>
+                    <li class="rq">*Enter alphabets only(2-16 characters).</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Student's Date Of Birth : </b></p>
+                    <li><input type='date' name='dateOfBirth' min="1975-01-01" max="2020-01-01" placeholder="date of birth" required/></li>
+                    <li class="rq">*Enter a date between 1975-01-01 and 2020-01-01.</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Student's Tuition Fees : </b></p>
+                    <li><input type='number' name='tuitionFees' min="0" max="8000" step=".001" placeholder="tuition fees" required/> </li>
+                    <li class="rq">*Enter numbers(0-8000).</li>
+                    <li>&nbsp;</li>
+                    
+                    <button class="formbuttons addbuttons" onclick="alert('student added succesfully')">ADD STUDENT</button>
+                    <li>&nbsp;</li>
+                    <nav><li class="return"><a href="../Assignment1LePa/assignment1.html">return to main page</a></li></nav>
+                </ul>
+            </form>
+            
+        </div>
+        <script src="/Assignment1LePa/javascript/assignment1.js"> </script>
+    </body>
+</html>

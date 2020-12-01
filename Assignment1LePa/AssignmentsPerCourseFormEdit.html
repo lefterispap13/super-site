@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>JavaScript form validation - checking all letters</title>
+        <link rel='stylesheet' href='../Assignment1LePa/css/assign1.css' type='text/css' />
+    </head>
+    <body onload='document.form1.text1.focus()' onload='document.form1.text2.focus()'>
+        <div class="mail">
+            <h2>Assignments Per Course Edit Form </h2><br><hr/>
+
+
+            <form id="edit">
+                <p>Choose one assignment to edit</p>
+                <select id="choose" class="inputs" onchange="AssignmentsPerCourseData()">
+                    <option value="apc0">Pick an Assignment</option>
+                    <option value="apc1" >PROJECT1</option>
+                    <option value="apc2" >PROJECT2</option>
+                    <option value="apc3" >PROJECT3</option>
+                    <option value="apc4" >PROJECT4</option>
+                </select>
+                <br><br>         
+                <ul>
+                    
+                    <p><b>Enter Assignment's title : </b></p>
+                    <li><input type='text' id="assignment title" name='text1' minLength="2" maxLength="30" placeholder="title" readonly required/></li>
+                    <li class="rq">*Can't change this field.</li>
+                    <li>&nbsp;</li>
+                    
+                    <p><b>Enter Description : </b></p>
+                    <li><input type='text' id="description" name='text2' minLength="2" maxLength="30" placeholder="description" readonly required/> </li>
+                    <li class="rq">*Can't change this field.</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Course Title : </b></p>                       
+                    <select id="title" value="--" required>
+                        <option value="title0">Pick a course title</option>
+                        <option value="title1" >CB1</option>
+                        <option value="title2" >CB2</option>
+                        <option value="title3" >CB3</option>
+                        <option value="title4" >CB4</option>
+                    </select>          
+                    <li class="rq">*choose a course.</li>
+                    <li>&nbsp;</li>
+                    
+                    <p><b>Enter Course Stream : </b></p>                  
+                    <select id="stream" value="--" required>
+                        <option value="Stream0">Pick a course title</option>
+                        <option value="Stream1" >JAVA</option>
+                        <option value="Stream2" >C SHARP</option>
+                        <option value="Stream3" >PYTHON</option>
+                        <option value="Stream4" >JAVASCRIPT</option>
+                    </select>          
+                    <li class="rq">*choose a Stream.</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Type of Stream : </b></p>                  
+                    <select id="type" value="--" required>
+                        <option value="Type0">Pick a type</option>
+                        <option value="Type1" >FULL TIME</option>
+                        <option value="Type2" >PART TIME</option>
+                        <option value="Type3" >EXTRA LESSONS</option>
+                    </select>          
+                    <li class="rq">*choose the type.</li>
+                    <li>&nbsp;</li>
+                                    
+                    <button class="formbuttons addbuttons" onclick="alert('Assignment Per Course list edited succesfully')">EDIT ASSIGNMENTS PER COURSE</button>
+                    <li>&nbsp;</li>
+                    <nav><li class="return"><a href="../Assignment1LePa/assignment1.html">return to main page</a></li></nav>
+   
+                    <li>&nbsp;</li>
+                </ul>
+            </form>
+            
+        </div>
+        <script src="javascript/assignment1.js"> </script>
+    </body>
+</html>

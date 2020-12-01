@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {                    /*dn nomizw na kaneis kati */
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  #table {
+    /* The image used */
+    background-image: url("../michael-marsh-U0dBV_QeiYk-unsplash.jpg");
+  
+    /* Full height */
+    height: 100%; 
+    width:100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #second #keimeno{
+    /* background-image: url("/Users/Home/Desktop/htmlLessons/image4.jpg");  --auth einai h eikona ama dn m aresei to trasparent color*/
+      height: 100%; 
+    width:100%;
+    background-color: rgba(255,255,255,0.5);
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   } 
+   #second #keno{                  /*auto einai to extra keli pou exw valei ston pinaka kai einai keno */
+       width:auto;
+   }
+  
+ 
+
+  #second #kati{
+    background-image: url("../images.jpg");
+    height: 100%; 
+    width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #third{
+    background-image: url("../images.jpg");
+    height: 100%; 
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #forth{
+    background-image: url("../images.jpg");
+    height: 100%; 
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #fifth{
+    background-image: url("../images.jpg");
+    height: 100%; 
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #sixth{
+    background-image: url("../images.jpg");
+    height: 100%; 
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #seventh{
+    background-image: url("../images.jpg");
+    height: 100%; 
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #eighth{
+    background-image: url("../images.jpg");
+    height: 100%; 
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #ninth{
+    background-image: url("../images.jpg");
+    height: 100%; 
+    width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+#second #keimeno{
+    width:55%;
+    padding-left: 120px;
+    
+}
+
+.forms{                                  /* dn vlepw na to xrhsimopoiw kapou */
+    width:150px;
+    background-color: maroon;
+}
+
+
+  
+#second #kati{                   /*edw allazw to width tn keliwn me students trainers ktlp */
+    width:15%;
+}
+ 
+
+#first{
+    height:180px;   
+}
+
+main{                                    /* apo ed allaksa to mege8os */
+    width: 98%;
+    padding-left: 5%;
+    padding:auto;
+}
+
+table{ 
+    border-style:solid;
+    border-width:20px;                                   /*???*/
+    width: 93% !important;
+    padding-left: 3,5% !important;
+    padding-right: 3,5% !important;
+    padding-bottom: 0%;
+    border-collapse:separate;
+    border:solid rgb(134, 40, 40) 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+td, th {                                      /*???*/
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+    padding-right: 50px;
+}
+
+th {                                              /*???*/
+    border-top: none;
+}
+
+td:first-child, th:first-child {                    /*???*/
+     border-left: none;
+}
+
+
+#footer{
+    height: 150px;
+    
+}
+#container {                                /*upopto */
+    max-width: 95%; 
+    margin: 0 auto;
+    padding-right: 7% ;
+    padding-left: 3,5% 
+}
+
+
+#second ul #st2{                    /*auta einai gia na mhn exoun koukides sthn lista*/
+    list-style: none;
+}
+#third ul #tr2{
+    list-style: none;
+}
+#forth ul #co2{
+    list-style: none;
+}
+#fifth ul #as2{
+    list-style: none;
+}
+#sixth ul #tpc2{
+    list-style: none;
+}
+#seventh ul #spc2{
+    list-style: none;
+}
+#eighth ul #apc2{
+    list-style: none;
+}
+#ninth ul #aps2{
+    list-style: none;
+}
+
+.mail .return{                           /* to koumpi return stis formes*/
+    margin-left: 180px;
+    width:200px;
+    height:50px;
+    background-color:#007cc7  ;
+    color: #000000;
+    display: block;
+    text-align: center;
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px; 
+    border-bottom-right-radius: 4px;    
+}
+
+.mail1 .return{                           /* to koumpi return stis formes*/
+    margin-left: 180px;
+    width:200px;
+    height:50px;
+    background-color:#007cc7  ;
+    color: #000000;
+    display: block;
+    text-align: center;
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px; 
+    border-bottom-right-radius: 4px;    
+}
+
+
+
+#second #st1 a{                       /* auto einai mono gia to students */
+    padding-top: 15px;
+    height:10px;
+    padding-right:50px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #st2 li{
+    visibility: hidden;
+}
+#second ul ul{
+    padding-bottom: 10px;
+}
+#second #st:hover{                              
+    color: red;
+}
+#second ul #st2 a:hover{
+    color:red;
+}
+#second ul #st1:hover #st2 li {
+    visibility: visible;   
+}
+#second ul ul{
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+
+
+#third ul #tr2 a:hover{
+    color:red;
+}
+
+#third ul ul{
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+#forth ul #co2 a:hover{
+    color:red;
+}
+
+#forth ul ul{
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+#fifth ul #as2 a:hover{
+    color:red;
+}
+
+#fifth ul ul{
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+#sixth ul #tpc2 a:hover{
+    color:red;
+}
+
+#sixth ul ul{
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+#seventh ul #spc2 a:hover{
+    color:red;
+}
+#seventh ul ul{
+    padding-bottom: 10px;
+}
+#seventh ul ul{
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+#eighth ul #apc2 a:hover{
+    color:red;
+}
+
+#eighth ul ul{
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+#ninth ul #aps2 a:hover{
+    color:red;
+}
+#ninth ul ul{
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+#ninth ul ul {
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: -40px;
+    font-size: 1px;
+}
+
+
+
+
+
+#third #tr1 a{
+    padding-top: 15px;
+    height:10px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #tr2 li{
+    visibility: hidden;
+}
+#third ul #tr:hover{
+    color: red;
+}
+
+#third ul #tr1:hover #tr2 li {
+    visibility: visible;   
+}
+
+#forth #co1 a{
+    padding-top: 15px;
+    height:10px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #co2 li{
+    visibility: hidden;
+}
+#forth ul #co:hover{
+    color: red;
+}
+
+#forth ul #co1:hover #co2 li {
+    visibility: visible;   
+}
+
+#fifth #as1 a{
+    padding-top: 15px;
+    height:10px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #as2 li{
+    visibility: hidden;
+}
+#fifth ul #as:hover{
+    color: red;
+}
+
+#fifth ul #as1:hover #as2 li {
+    visibility: visible;   
+}
+
+#sixth #tpc1 a{
+    padding-top: 15px;
+    height:10px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #tpc2 li{
+    visibility: hidden;
+}
+#sixth ul #tpc:hover{
+    color: red;
+}
+
+#sixth ul #tpc1:hover #tpc2 li {
+    visibility: visible;   
+}
+
+#seventh #spc1 a{
+    padding-top: 15px;
+    height:10px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #spc2 li{
+    visibility: hidden;
+}
+#seventh ul #spc:hover{
+    color: red;
+}
+
+#seventh ul #spc1:hover #spc2 li {
+    visibility: visible;   
+}
+
+#eighth #apc1 a{
+    padding-top: 15px;
+    height:10px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #apc2 li{
+    visibility: hidden;
+}
+#eighth ul #apc:hover{
+    color: red;
+}
+
+#eighth ul #apc1:hover #apc2 li {
+    visibility: visible;   
+}
+
+#ninth #aps1 a{
+    padding-top: 15px;
+    height:10px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+ul #aps2 li{
+    visibility: hidden;
+}
+#ninth ul #aps:hover{
+    color: red;
+}
+
+#ninth ul #aps1:hover #aps2 li {
+    visibility: visible;   
+}
+
+/*css gia Students form */
+
+li {list-style-type: none;
+    font-size: 16pt;
+}
+
+.mail {
+    margin-top: 100px;
+    margin-left: 37%; 
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 600px;
+    background : #D8F1F8;
+    border: 1px solid silver;
+}
+
+.mail h2 {
+        text-align: center;    
+}
+
+input {
+    font-size: 20pt;
+}
+
+input:focus, textarea:focus{
+    background-color: lightyellow;
+}
+
+input submit {
+    font-size: 12pt;
+}
+
+.rq {
+    color: #FF0000;
+    font-size: 10pt;
+}
+.formbuttons{
+    margin-left: 180px;
+    width:200px;
+    height:50px;
+    background-color:#007cc7  ;
+    color: white;
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px; 
+    border-bottom-right-radius: 4px;
+    border: white;
+}
+
+/* css gia student edit form */
+
+
+.mail1 {
+    margin-top: 100px;
+    margin-left: 37%; 
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 600px;
+    background : #D8F1F8;
+    border: 1px solid silver;
+}
+
+.mail1 h2 {
+        text-align: center;    
+}
+
+
+
+

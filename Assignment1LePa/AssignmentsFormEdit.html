@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>JavaScript form validation - checking all letters</title>
+        <link rel='stylesheet' href='../Assignment1LePa/css/assign1.css' type='text/css' />
+    </head>
+    <body onload='document.form1.text1.focus()' onload='document.form1.text2.focus()'>
+        <div class="mail1">
+            <h2>Assignment Edit Form </h2><br><hr/>            
+                <form id="edit">
+                    <p>Choose one of the existing trainers to edit</p>
+                    <select id="choose" class="inputs" onchange="AssignmentData()">
+                        <option value="assignment0">Pick an Assignment</option>
+                        <option value="assignment1" >PROJECT1</option>
+                        <option value="assignment2" >PROJECT2</option>
+                        <option value="assignment3" >PROJECT3</option>
+                        <option value="assignment4" >PROJECT4</option>
+                    </select>
+                    <br><br>
+                    <ul>
+                        <p><b>Enter Assignment's title : </b></p>
+                    <li><input type='text' id="title" name='text1' minLength="2" maxLength="30" placeholder="title" value="--" readonly required/></li>
+                    <li class="rq">*Can't change this field.</li>
+                    <li>&nbsp;</li>
+                    
+                    <p><b>Enter Description : </b></p>
+                    <li><input type='text' id="description"name='text2' minLength="2" maxLength="30" placeholder="description" value="--"readonly required/> </li>
+                    <li class="rq">*Can't change this field.</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Assignment's Submission Date : </b></p>
+                    <li><input type='date' id="subDate" name='submissionDate' min="1975-01-01" max="2030-01-01" value="--" placeholder="submission date" /></li>
+                    <li class="rq">*Enter a date between 1975-01-01 and 2030-01-01.</li>
+                    <li>&nbsp;</li>  
+                    
+                    <button class="formbuttons addbuttons" onclick="alert('Assignment edited succesfully')">EDIT ASSIGNMENT</button>
+                    <li>&nbsp;</li>
+                    <nav><li class="return"><a href="../Assignment1LePa/assignment1.html">return to main page</a></li></nav>
+   
+                    <li>&nbsp;</li>
+                    </ul>
+                
+            </form>
+            
+        </div>
+        <script src="javascript/assignment1.js"> </script>
+    </body>
+</html>

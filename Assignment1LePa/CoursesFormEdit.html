@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>JavaScript form validation - checking all letters</title>
+        <link rel='stylesheet' href='../Assignment1LePa/css/assign1.css' type='text/css' />
+    </head>
+    <body onload='document.form1.text1.focus()' onload='document.form1.text2.focus()'>
+        <div class="mail1">
+            <h2>Course Edit Form </h2><br><hr/>            
+                <form id="edit">
+                    <p>Choose one of the existing trainers to edit</p>
+                    <select id="choose" class="inputs" onchange="CourseData()">
+                        <option value="course0">Pick a course</option>
+                        <option value="course1" >CB1 JAVA FT</option>
+                        <option value="course2" >CB1 JAVA PT</option>
+                        <option value="course3" >CB2 JAVASCRIPT FT</option>
+                        <option value="course4" >CB3 PYTHON FT</option>
+                    </select>
+                    <br><br>
+                    <ul>
+                        <p><b>Enter Course Title : </b></p>                       
+                    <select id="title" value="--" required disabled>
+                        <option value="title0">Pick a course title</option>
+                        <option value="title1" >CB1</option>
+                        <option value="title2" >CB2</option>
+                        <option value="title3" >CB3</option>
+                        <option value="title4" >CB4</option>
+                    </select>          
+                    <li class="rq">*Can't change this field.</li>
+                    <li>&nbsp;</li>
+                    
+                    <p><b>Enter Course Stream : </b></p>                  
+                    <select id="stream" value="--" required disabled>
+                        <option value="Stream0">Pick a course title</option>
+                        <option value="Stream1" >JAVA</option>
+                        <option value="Stream2" >C SHARP</option>
+                        <option value="Stream3" >PYTHON</option>
+                        <option value="Stream4" >JAVASCRIPT</option>
+                    </select>          
+                    <li class="rq">*Can't change this field.</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Type of Stream : </b></p>                  
+                    <select id="type" value="--"  requires disabled>
+                        <option value="Type0">Pick a type</option>
+                        <option value="Type1" >FULL TIME</option>
+                        <option value="Type2" >PART TIME</option>
+                        <option value="Type3" >EXTRA LESSONS</option>
+                    </select>          
+                    <li class="rq">*choose the type.</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Course's Start Date : </b></p>
+                    <li><input type='date' id="startDate" name='startDate' min="1975-01-01" max="2030-01-01" placeholder="start date" value="--" required/></li>
+                    <li class="rq">*Enter a date between 1975-01-01 and 2030-01-01.</li>
+                    <li>&nbsp;</li>
+
+                    <p><b>Enter Course's Start Date : </b></p>
+                    <li><input type='date' id="endDate" name='endDate' min="1975-01-01" max="2030-01-01" placeholder="start date" value="--" required/></li>
+                    <li class="rq">*Enter a date between 1975-01-01 and 2030-01-01.</li>
+                    <li>&nbsp;</li>   
+                    
+                    <button class="formbuttons addbuttons" onclick="alert('Course edited succesfully')">EDIT COURSE</button>
+                    <li>&nbsp;</li>
+                    <nav><li class="return"><a href="../Assignment1LePa/assignment1.html">return to main page</a></li></nav>
+   
+                    <li>&nbsp;</li>
+                    </ul>
+                
+            </form>
+            
+        </div>
+        <script src="javascript/assignment1.js"> </script>
+    </body>
+</html>

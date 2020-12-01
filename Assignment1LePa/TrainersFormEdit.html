@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>JavaScript form validation - checking all letters</title>
+        <link rel='stylesheet' href='../Assignment1LePa/css/assign1.css' type='text/css' />
+    </head>
+    <body onload='document.form1.text1.focus()' onload='document.form1.text2.focus()'>
+        <div class="mail1">
+            <h2>Trainer Edit Form </h2><br><hr/>
+
+
+              
+                
+                <form id="edit">
+                    <p>Choose one of the existing trainers to edit</p>
+                    <select id="choose" class="inputs" onchange="trainerData()">
+                        <option value="Trainer0">Pick a trainer</option>
+                        <option value="Trainer1" >Dimitris Nikolidakis</option>
+                        <option value="Trainer2" >Giwrgos Pasparakis</option>
+                        <option value="Trainer3" >Vladimiros Fwtiadis</option>
+                        <option value="Trainer4" >Lena Kapetanaki</option>
+                    </select>
+                    <br><br>
+                    <ul>
+                        <p><b>Trainers's First Name : </b></p>
+                        <li><input type='text' id="first name" name='text1' minLength="2" maxLength="14" placeholder="first name" value="--" readonly required/></li>
+                        <li class="rq">*Can't change this field.</li>
+                        <li>&nbsp;</li>
+                        
+                        <p><b> Trainers's Last Name : </b></p>
+                        <li><input type='text' id="last name" name='text2' minLength="2" maxLength="16" placeholder="last name" value="--" readonly required/> </li>
+                        <li class="rq">*Can't change this field.</li>
+                        <li>&nbsp;</li>
+                        
+                        
+                        <p><b> Trainer's Subject : </b></p>
+                        <select id="subject" value="--" >
+                            <option value="subject0">Pick a subject</option>
+                            <option value="subject1" >JAVA</option>
+                            <option value="subject2" >C SHARP</option>
+                            <option value="subject3" >PYTHON</option>
+                            <option value="subject4" >JAVASCRIPT</option>
+                        </select>
+                        <li>&nbsp;</li>
+                        <button class="formbuttons addbuttons" onclick="alert('Trainer edited succesfully')">EDIT TRAINER</button>
+                        <li>&nbsp;</li>
+                        <nav><li class="return"><a href="../Assignment1LePa/assignment1.html">return to main page</a></li></nav>
+    
+                        <li>&nbsp;</li>
+                    </ul>
+                
+            </form>
+            
+        </div>
+        <script src="javascript/assignment1.js"> </script>
+    </body>
+</html>
